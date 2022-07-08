@@ -11,3 +11,9 @@ The full description of the details of **reverse** program and the set of tests 
 
 If you are going to run tests, please read the instruction: https://github.com/remzi-arpacidusseau/ostep-projects#projects-for-an-operating-systems-class.
 
+***Attention***: there are inconsistencies between the project description and the tests:
+
+1) From description: If the input file and output file are the same file, you should print out an error message: **"Input and output file must differ"**.
+Message from test: **"reverse: input and output file must differ"**.
+
+2) From description: If the user specifies an input file or output file, and for some reason, when you try to open said file (e.g., input.txt) and fail, you should print out the following exact error message: **"error: cannot open file input.txt"**. Message from test: **"reverse: cannot open file input.txt"**.
